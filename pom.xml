@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.psauxit</groupId>
-  <artifactId>webnettools</artifactId>
+  <artifactId>pspenit</artifactId>
   <version>1.4.0-SNAPSHOT</version>
   <scm>
-    <connection>scm:git:https://github.com/psaux-it/webnettools.git</connection>
-    <url>https://github.com/psaux-it/webnettools</url>
+    <connection>scm:git:https://github.com/psaux-it/pspenit.git</connection>
+    <url>https://github.com/psaux-it/pspenit</url>
     <tag>HEAD</tag>
   </scm>
   <properties>
@@ -43,8 +43,8 @@
                   <executable>docker</executable>
                   <arguments>
                     <argument>tag</argument>
-                    <argument>psauxit/webnettools:${project.version}</argument>
-                    <argument>psauxit/webnettools:latest</argument>
+                    <argument>psauxit/pspenit:${project.version}</argument>
+                    <argument>psauxit/pspenit:latest</argument>
                   </arguments>
                 </configuration>
               </execution>
@@ -58,7 +58,7 @@
                   <executable>docker</executable>
                   <arguments>
                     <argument>push</argument>
-                    <argument>psauxit/webnettools:latest</argument>
+                    <argument>psauxit/pspenit:latest</argument>
                   </arguments>
                 </configuration>
               </execution>
@@ -306,7 +306,7 @@
         <configuration>
           <images>
             <image>
-              <name>psauxit/webnettools:${project.version}</name>
+              <name>psauxit/pspenit:${project.version}</name>
               <build>
                 <tags>
                   <tag>${project.version}</tag>
