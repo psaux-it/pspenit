@@ -28,7 +28,7 @@ Currently service supports the following tools:
 :loudspeaker: Back-end devs please work on **backend-dev** branch and make pull requests to **preprod** branch. PLEASE don't merge any commit directly to **main** branch.
 
 ## Access
-### Preprod Server
+### Preprod & Proxy Server
 :loudspeaker: Ask for Private Key --> hasan.calisir@psauxit.com
 
 ```
