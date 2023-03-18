@@ -40,7 +40,7 @@
     "ansi_up": "^5.1.0",
     "bootstrap": "^4.6.2",
     "@popperjs/core": "^2.11.6",
-    "jquery": "^3.6.3",
+    "jquery": "^3.6.4",
     "bootstrap-icons": "^1.10.3",
     "moment": "^2.29.4",
     "sirv-cli": "^2.0.2",
