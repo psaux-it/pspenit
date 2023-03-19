@@ -22,12 +22,17 @@ Currently service supports the following tools:
 * [DDEC](https://github.com/ak545/dns-domain-expiration-checker)
 * [DNSRecon](https://github.com/darkoperator/dnsrecon)
 
-## Branches and Devs
-#### Because we have no Enterprise github plan for now we cannot protect main branch so:
+## Protect MAIN Branch
+#### Because we have no enterprise github plan for now we cannot protect main branch so:
 
-:loudspeaker: Front-end devs please work on **frontend-dev** branch and make pull requests to **preprod** branch. PLEASE don't merge any commit directly to **main** branch.
+:loudspeaker: While commiting follow the workflow -->
+* Create a new branch from **preprod branch**
+* Commit your changes to your newly created branch 
+* Make pull request to **preprod branch** and assign a reviewer
+* Keep your branch till your PR merged
+* You can delete your branch after your PR merged by a member
 
-:loudspeaker: Back-end devs please work on **backend-dev** branch and make pull requests to **preprod** branch. PLEASE don't merge any commit directly to **main** branch.
+PLEASE don't directly pull request or commit to **main** branch.
 
 ## Access
 ### Preprod & Proxy Server
