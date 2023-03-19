@@ -4,7 +4,6 @@
 
 [![GitHub tag](https://img.shields.io/badge/release-1.4.0-blue)](https://github.com/psaux-it/pspenit/tags)
 [![Join the chat at https://web.libera.chat/#psauxit](https://img.shields.io/badge/chat%20-on%20libera-orange)](https://web.libera.chat/#psauxit)
-[![woo-aras-setup.sh CI](https://github.com/psaux-it/pspenit/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/psaux-it/pspenit/actions/workflows/codeql-analysis.yml)
 
 Currently service supports the following tools:
 * [TestSSL](https://github.com/drwetter/testssl.sh)
