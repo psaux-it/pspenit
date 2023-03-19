@@ -8,10 +8,11 @@
 
 Currently service supports the following tools:
 * [TestSSL](https://github.com/drwetter/testssl.sh)
-* Ping
-* Traceroute
+* [Ping](https://packages.ubuntu.com/jammy/iputils-ping)
+* [Host](https://packages.ubuntu.com/jammy/bind9-host)
+* [Whois](https://packages.ubuntu.com/jammy/whois)
 * [Nmap](https://nmap.org)
-* Dig
+* [Dig](https://packages.ubuntu.com/bionic/dnsutils)
 * [MTR](https://www.bitwizard.nl/mtr/)
 * [ASN](https://github.com/nitefood/asn)
 * [XSStrike](https://github.com/s0md3v/XSStrike)
@@ -19,6 +20,8 @@ Currently service supports the following tools:
 * [Wapiti](https://github.com/wapiti-scanner/wapiti)
 * [Amass](https://github.com/OWASP/Amass)
 * [WPScan](https://github.com/wpscanteam/wpscan)
+* [DDEC](https://github.com/ak545/dns-domain-expiration-checker)
+* [DNSRecon](https://github.com/darkoperator/dnsrecon)
 
 ## Branches and Devs
 #### Because we have no Enterprise github plan for now we cannot protect main branch so:
