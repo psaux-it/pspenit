@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { FileOptionMD } from "../Configuration";
 
-    export let value: string = null;
+    export let value: string|null;
     export let md: FileOptionMD;
     let filename: string = "";
 
@@ -9,23 +9,26 @@
         return "test";
     }
 
-    function processFile(e) {
+    function processFile(e: Event & { currentTarget: EventTarget & HTMLInputElement} ) {
         filename = "";
         value = "";
-        if (e.target.files.length < 1) {
-            return;
+        let target = e?.target as typeof e.currentTarget
+
+        if (target?.files && target.files.length > 0) {
+            let file: File = target.files[0];
+            
+            if (file.size > md.maxSize) {
+                alert("Maximum file size is " + md.maxSize + " byte.");
+                return;
+            } else {
+                filename = file.name;
+                let reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = (e) => {
+                    value = "filename:" + filename + ";" + e.target?.result?.toString();
+                };
+            }
         }
-        let file: File = e.target.files[0];
-        if (file.size > md.maxSize) {
-            alert("Maximum file size is " + md.maxSize + " byte.");
-            return;
-        }
-        filename = file.name;
-        let reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = (e) => {
-            value = "filename:" + filename + ";" + e.target.result.toString();
-        };
     }
 </script>
 

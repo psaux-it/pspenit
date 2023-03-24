@@ -76,7 +76,7 @@
     }
 </script>
 
-<main role="main" class="container-fluid">
+<main role="application" class="container-fluid">
     <h1>
         <i class="bi bi-p-square-fill" />
         <a href="https://pentest.psauxit.com/">Pentest Tools</a>

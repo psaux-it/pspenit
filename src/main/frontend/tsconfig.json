@@ -1,29 +1,21 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "target": "ESNEXT",
-    "lib": ["ESNEXT", "dom"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "ignoreDeprecations": "5.0",
-    "types": ["svelte", "node"],
+    "declaration": true,    
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    
-    "isolatedModules": true,
-    "noEmit": true,
     "strictNullChecks": true,    
+    "noImplicitAny": true,
+    "ignoreDeprecations": "5.0",
+    "types": ["svelte"],
+    "outDir": "public/build"
   },
   "include": [
-    "src/**/*", "src/node_modules"
-  ],
+    "src/**/*" ],
+  
   "exclude": [
-    "node_modules/*",
-    "__sapper__/*",
-    "public/*"
+    "node_modules/**/*",
+    "public/**/*",
+    "build/**/*",
+    "node/**/*"
   ]
 }
