@@ -105,7 +105,7 @@
 
 <div class="card">
     <div
-        on:click={toggleVisibility}
+        on:mousedown={toggleVisibility}
         class="card-header d-flex flex-row"
         class:bg-success={result.status === TaskStatus.SUCCESS}
         class:bg-danger={result.status === TaskStatus.ERROR}
@@ -145,7 +145,7 @@
                 </div>
             {:else}
                 <i
-                    on:click|stopPropagation={cancelRequest}
+                    on:mousedown={cancelRequest}
                     class="bi bi-x"
                     style="font-size: 2.6em; line-height: 0em; margin-left: -0.2em; margin-buttom: -0.5em;"
                     class:d-none={result.status !== TaskStatus.RUNNING &&
