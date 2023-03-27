@@ -12,14 +12,14 @@
     }
 </script>
 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<ul class="nav nav-tabs" id="myTab">
     {#each tools as tool}
         <li class="nav-item" role="presentation">
             <!-- svelte-ignore a11y-missing-attribute -->
             <a
                 class="nav-link"
                 class:active={mode === tool.name}
-                on:click={() => changeMode(tool.name)}>{tool.displayName}</a
+                on:mousedown={() => changeMode(tool.name)}>{tool.displayName}</a
             >
         </li>
     {/each}

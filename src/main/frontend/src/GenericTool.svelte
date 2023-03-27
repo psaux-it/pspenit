@@ -174,7 +174,7 @@
         {#each tool.groups as group}
             <div
                 class="row text-secondary"
-                on:click={() => {
+                on:mousedown={() => {
                     showOptions[group.name] = !showOptions[group.name];
                 }}
                 style="font-size: 0.9em;"
