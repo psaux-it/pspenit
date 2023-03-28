@@ -2,6 +2,7 @@
 # Pentest Service RCS (RUN-CATCH-SHARE)
 ### pentest-dev.psauxit.com
 
+[![Java CI](https://github.com/psaux-it/pspenit/actions/workflows/java.yml/badge.svg)](https://github.com/psaux-it/pspenit/actions/workflows/java.yml)
 [![GitHub tag](https://img.shields.io/badge/release-1.4.0-blue)](https://github.com/psaux-it/pspenit/tags)
 [![Join the chat at https://web.libera.chat/#psauxit](https://img.shields.io/badge/chat%20-on%20libera-orange)](https://web.libera.chat/#psauxit)
 
