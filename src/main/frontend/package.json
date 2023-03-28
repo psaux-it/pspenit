@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "ansi_up": "^5.1.0",
-    "bootstrap": "^4.6.2",
+    "bootstrap": "^5.2.3",
     "@popperjs/core": "^2.11.6",
     "jquery": "^3.6.4",
     "bootstrap-icons": "^1.10.3",
