@@ -22,6 +22,7 @@ Currently service supports the following tools:
 * [WPScan](https://github.com/wpscanteam/wpscan)
 * [DDEC](https://github.com/ak545/dns-domain-expiration-checker)
 * [DNSRecon](https://github.com/darkoperator/dnsrecon)
+* [CloudMare](https://github.com/mrh0wl/Cloudmare)
 
 ## Protect MAIN Branch
 #### Because we have no enterprise github plan for now we cannot protect main branch so:
