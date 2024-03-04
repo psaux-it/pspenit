@@ -1,5 +1,5 @@
 
-# Pentest Service RCS (RUN-CATCH-SHARE)
+# Pentest Service RCS
 ### pentest-dev.psauxit.com
 
 [![Java CI](https://github.com/psaux-it/pspenit/actions/workflows/java.yml/badge.svg)](https://github.com/psaux-it/pspenit/actions/workflows/java.yml)
@@ -24,51 +24,6 @@ Currently service supports the following tools:
 * [DNSRecon](https://github.com/darkoperator/dnsrecon)
 * [CloudMare](https://github.com/mrh0wl/Cloudmare)
 
-## Protect MAIN Branch
-#### Because we have no enterprise github plan for now we cannot protect main branch so:
-
-:loudspeaker: While commiting follow the workflow -->
-* Create a new branch from **preprod branch**
-* Commit your changes to your newly created branch 
-* Make pull request to **preprod branch** and assign a reviewer
-* Keep your branch till your PR merged
-* You can delete your branch after your PR merged by a member
-
-PLEASE don't directly pull request or commit to **main** branch.
-
-## Access
-### Preprod & Proxy Server
-:loudspeaker: Ask for Private Key --> hasan.calisir@psauxit.com
-
-```
-IPv4 address	 159.69.183.155
-IPv6 address	 2a01:4f8:c17:4feb::1
-SSH Port	 1453
-Private Key	 ubuntu.ppk (check attachment)
-Passphase	 I0210154
-User	         black
-Sudo Password	 I0210154
-```
-
-### Github CMD/CLI
-:loudspeaker: Please use **Personal access tokens (classic)** we don't support **Fine-grained personal access tokens**
-
-### IMAP
-:loudspeaker: Please change your default mail account imap password via imap web client https://webmail.psauxit.com. If you don't have organisation mail account yet please contact --> hasan.calisir@psauxit.com
-
-#### Web Client
-```
-URL = https://webmail.psauxit.com
-Username = your_mailbox_name e.g. (doruk.turkoglu@psauxit.com)
-Password = psauxit2023 (default for new member)
-```
-#### Mobile Clients 
-```
-Outgoing  - SMTP: | mail.psauxit.com | 587 |  STARTTLS
-Incoming - IMAP:  | mail.psauxit.com | 993 |  SSL/TLS
-Username = your_mailbox_name e.g. (doruk.turkoglu@psauxit.com)
-Password = psauxit2023 (default for new member)
-```
 
 ## Info
 To build the tooling, just run `mvn clean install`. This builds the backend and frontend.
